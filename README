@@ -194,6 +194,13 @@ As a last function of the program, a single aspect can be wiped. The following s
 2. The map of the aspect to be written to is read, and all referenced blocks are overwritten with random noise.
 3. The entire map is initialised with UNUSED
 
+These steps are triggered by the following command:
+$ wrench truncate <extent.file>
+>Please enter password for the aspect you wish to wipe
+>
+>Transforming passwords... Done!
+>Wiping... Done!
+
 Notes:
  - Passwords are protected from being swapped onto a disk by mlock()
  - 
